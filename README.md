@@ -103,6 +103,9 @@ The model generates several outputs:
    - Percentage difference between consecutive iteration counts
 3. **Attribution Tables**: Shows the participation of the different channels in the conversion, the removal effect and first touch attribution.
 
+## Contact
+
+mnavas@myriamnavas.com
 
 ---
 
