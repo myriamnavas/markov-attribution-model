@@ -73,7 +73,7 @@ The model works through several key steps:
 2. **Simulation**: Uses Monte Carlo simulation to estimate conversion probabilities
 3. **Attribution Calculation**: Computes attribution values using different methods
 4. **Sensitivity Analysis**: Tests different iteration counts to ensure stability
-5. **Visualization**: Generates charts and diagrams to show results
+5. **Visualization**: Generates Sankey chart and diagrams to show sensibility
 
 ## Performance Notes
 
@@ -84,12 +84,8 @@ It's recommended to start with lower iteration sequences and gradually increase 
 ## Files in this Repository
 
 - `markov_attribution.ipynb`: The main Google Colab notebook with the implementation
+- `markov-chains-marketing-attribution-model.ipynb`: complete model to use in Jupyter.
 - `sample_data.csv`: Sample data file for testing the model
-- Visualization outputs:
-  - `sankey_markov.html`: Interactive Sankey diagram
-  - `comparacion_iteraciones.png`: Comparison of different iteration counts
-  - `comparacion_atribucion.csv`: Attribution comparison table
-  - `atribucion_completa_X_iter.csv`: Complete attribution results for each iteration count
 
 ## Limitations
 
@@ -105,12 +101,9 @@ The model generates several outputs:
    - Conversion probability vs. iterations
    - Number of channels with non-zero attribution vs. iterations
    - Percentage difference between consecutive iteration counts
-3. **Attribution Tables**: Shows how attribution values change with different iteration counts
+3. **Attribution Tables**: Shows the participation of the different channels in the conversion, the removal effect and first touch attribution.
 
-## Contributing
-
-Contributions to improve the model are welcome. Please feel free to submit issues or pull requests.
 
 ---
 
-*This model was developed to provide a more comprehensive approach to marketing attribution, addressing some of the limitations of platform-specific attribution models.*
+*This model was developed to provide a more comprehensive approach to marketing attribution, use it wisely and at your own discretion.*
