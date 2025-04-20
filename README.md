@@ -91,7 +91,7 @@ It's recommended to start with lower iteration sequences and gradually increase 
 
 While this model provides valuable insights, it's not a complete replacement for Media Mix Models (MMM), especially for cross-platform attribution. It works with the path data already collected by tools like GA4, but offers a more nuanced understanding of channel interactions and contributions.
 
-## Example Output
+## Output files
 
 The model generates several outputs:
 
